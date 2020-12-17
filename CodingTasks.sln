@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinsChangeCountRecursiveBruteForce", "CodingTasks\CoinsChangeCountRecursiveBruteForce.csproj", "{6B1AFC84-8735-4B92-A59F-79E2D3781441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinsChangeCountRecursiveWithCache", "CoinsChangeCountRecursiveWithCache\CoinsChangeCountRecursiveWithCache.csproj", "{3DA6A526-D051-4C63-974F-C5E41FEB99EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B1AFC84-8735-4B92-A59F-79E2D3781441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1AFC84-8735-4B92-A59F-79E2D3781441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1AFC84-8735-4B92-A59F-79E2D3781441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1AFC84-8735-4B92-A59F-79E2D3781441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA6A526-D051-4C63-974F-C5E41FEB99EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA6A526-D051-4C63-974F-C5E41FEB99EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA6A526-D051-4C63-974F-C5E41FEB99EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA6A526-D051-4C63-974F-C5E41FEB99EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBCF5782-3823-4D03-BCB9-E10E43540FE3}
+	EndGlobalSection
+EndGlobal
