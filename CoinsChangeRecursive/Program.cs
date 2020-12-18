@@ -56,13 +56,13 @@ namespace CodingTasks
 
             Array.Sort(coins);
 
-            var countOfCombinations = CountOfCombinationsRecursiveBruteForce(coins, amount, coins.Length - 1);
+            var countOfCombinations = CountOfCombinationsRecursive(coins, amount, coins.Length - 1);
 
             Console.WriteLine($"count of combinations : {countOfCombinations}");
             Console.WriteLine($"total calls : {callCount}");
         }
 
-        static int CountOfCombinationsRecursiveBruteForce(int[] coins, int amount, int maxDenominatorId)
+        static int CountOfCombinationsRecursive(int[] coins, int amount, int maxDenominatorId)
         {
             // diagnostics
             callCount++;
@@ -74,7 +74,7 @@ namespace CodingTasks
                 return 1;
 
             // next case
-            return CountOfCombinationsRecursiveBruteForce(coins, amount, maxDenominatorId - 1) + CountOfCombinationsRecursiveBruteForce(coins, amount - coins[maxDenominatorId], maxDenominatorId);
+            return CountOfCombinationsRecursive(coins, amount, maxDenominatorId - 1) + CountOfCombinationsRecursive(coins, amount - coins[maxDenominatorId], maxDenominatorId);
         }
     }
 }
