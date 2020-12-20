@@ -9,13 +9,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PermutationsVectorWithVecto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinsChangeCountRecursive", "CoinsChangeRecursive\CoinsChangeCountRecursive.csproj", "{8D5FD2D3-B773-4C2B-B42B-55C7316BA191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbcPermutations", "AbcPermutations\AbcPermutations.csproj", "{587B6856-39B9-40CF-8881-112382046536}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbcPermutations", "AbcPermutations\AbcPermutations.csproj", "{587B6856-39B9-40CF-8881-112382046536}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramDifference", "AnagramDifference\AnagramDifference.csproj", "{B502423D-BCB9-4B57-A44D-28B4CACF35C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnagramDifference", "AnagramDifference\AnagramDifference.csproj", "{B502423D-BCB9-4B57-A44D-28B4CACF35C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinsChangeLimitedCoinCount", "CoinsChangeLimitedCoinCount\CoinsChangeLimitedCoinCount.csproj", "{7CAE6153-A23D-47A2-9B57-CEBEC274D69F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinsChangeLimitedCoinCount", "CoinsChangeLimitedCoinCount\CoinsChangeLimitedCoinCount.csproj", "{7CAE6153-A23D-47A2-9B57-CEBEC274D69F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavisStaircase", "DavisStaircase\DavisStaircase.csproj", "{53107E73-533B-42E4-8CFE-EF056D9F3286}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DavisStaircase", "DavisStaircase\DavisStaircase.csproj", "{53107E73-533B-42E4-8CFE-EF056D9F3286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Islands", "Islands\Islands.csproj", "{AD226BCA-E0B4-4B21-AE2C-5D1CF95B8619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{C9023466-5E00-4F45-B9CD-77227417DAB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContSubarrayThatAddToNumber", "ContSubarrayThatAddToNumber\ContSubarrayThatAddToNumber.csproj", "{4831598C-C587-4246-8F91-A923160067CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibo", "Fibo\Fibo.csproj", "{080AEC3E-41A0-4FB8-90C5-AD637017ABED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryEquivalentOfInteger", "BinaryEquivalentOfInteger\BinaryEquivalentOfInteger.csproj", "{CEC9CD68-5CC0-4F6C-8B93-5C2977BCC0FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringWithRepeatingChars", "StringWithRepeatingChars\StringWithRepeatingChars.csproj", "{125DECA6-9B16-44AB-AF0C-9B0E12577138}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +63,30 @@ Global
 		{53107E73-533B-42E4-8CFE-EF056D9F3286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53107E73-533B-42E4-8CFE-EF056D9F3286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53107E73-533B-42E4-8CFE-EF056D9F3286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD226BCA-E0B4-4B21-AE2C-5D1CF95B8619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD226BCA-E0B4-4B21-AE2C-5D1CF95B8619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD226BCA-E0B4-4B21-AE2C-5D1CF95B8619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD226BCA-E0B4-4B21-AE2C-5D1CF95B8619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9023466-5E00-4F45-B9CD-77227417DAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9023466-5E00-4F45-B9CD-77227417DAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9023466-5E00-4F45-B9CD-77227417DAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9023466-5E00-4F45-B9CD-77227417DAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4831598C-C587-4246-8F91-A923160067CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4831598C-C587-4246-8F91-A923160067CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4831598C-C587-4246-8F91-A923160067CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4831598C-C587-4246-8F91-A923160067CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080AEC3E-41A0-4FB8-90C5-AD637017ABED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080AEC3E-41A0-4FB8-90C5-AD637017ABED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080AEC3E-41A0-4FB8-90C5-AD637017ABED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080AEC3E-41A0-4FB8-90C5-AD637017ABED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC9CD68-5CC0-4F6C-8B93-5C2977BCC0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC9CD68-5CC0-4F6C-8B93-5C2977BCC0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC9CD68-5CC0-4F6C-8B93-5C2977BCC0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC9CD68-5CC0-4F6C-8B93-5C2977BCC0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125DECA6-9B16-44AB-AF0C-9B0E12577138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125DECA6-9B16-44AB-AF0C-9B0E12577138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125DECA6-9B16-44AB-AF0C-9B0E12577138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125DECA6-9B16-44AB-AF0C-9B0E12577138}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
