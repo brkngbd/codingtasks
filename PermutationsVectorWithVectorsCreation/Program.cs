@@ -53,8 +53,6 @@ public class Solution
 {
     public IList<IList<int>> Permute(int[] nums)
     {
-
-        Array.Sort(nums);
         var result = new List<List<int>>();
         var source = new List<int>(nums);
 

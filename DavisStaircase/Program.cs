@@ -44,40 +44,34 @@ namespace DavisStaircase
 {
     class Program
     {
+        static long[] dp = null;
+
         static void Main(string[] args)
         {
-            Console.WriteLine(stepPerms(7));
-        }
-
-        static int stepPerms(int n)
-        {
-            return (int)(CountOfWays(n) % 100000000007L);
-        }
-
-        static Dictionary<int, long> dic = new Dictionary<int, long>();
-
-        static long CountOfWays(int n)
-        {
-            if (n == 0)
-                return 1;
-
-            if (n == 1)
-                return 1;
-
-            if (n == 2)
-                return 2;
-
-            if (n == 3)
-                return 4;
-
-            if (dic.ContainsKey(n))
-                return dic[n];
-            else
+            var n = 5;
+            if (dp == null)
             {
-                var p = CountOfWays(n - 1) + CountOfWays(n - 2) + CountOfWays(n - 3);
-                dic[n] = p;
-                return p;
+                dp = makedp(n);
             }
+
+            var r =  (int)(dp[n] % 100000000007L);
+
+            Console.WriteLine(r);
+        }
+
+        static long[] makedp(int n)
+        {
+            var d = new long[n + 1];
+
+            d[0] = 1;
+            d[1] = 1;
+            d[2] = 2;
+
+            for (var i = 3; i <= n; i++)
+            {
+                d[i] = d[i - 1] + d[i - 2] + d[i - 3];
+            }
+            return d;
         }
     }
 }

@@ -31,8 +31,8 @@ namespace CodingTasks
         static void Main(string[] args)
         {
             // 1
-            var amount = 5;
-            var coins = new int[] { 1, 2, 5 };
+            //var amount = 5;
+            //var coins = new int[] { 1, 2, 5 };
             // Output: 4
             // call count = 27
 
@@ -53,6 +53,12 @@ namespace CodingTasks
             //var coins = new int[] { 1, 2, 5 };
             // Output: 451201
             // call count = 904055901
+
+            // 5
+            var amount = 4;
+            var coins = new int[] { 1, 2, 3 };
+            // Output: 4
+            // call count = 25
 
             Array.Sort(coins);
 
