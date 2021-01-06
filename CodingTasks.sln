@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinsChangeCountRecursiveWithCache", "CoinsChangeCountRecursiveWithCache\CoinsChangeCountRecursiveWithCache.csproj", "{3DA6A526-D051-4C63-974F-C5E41FEB99EC}"
 EndProject
@@ -17,17 +17,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinsChangeLimitedCoinCount
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DavisStaircase", "DavisStaircase\DavisStaircase.csproj", "{53107E73-533B-42E4-8CFE-EF056D9F3286}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Islands", "Islands\Islands.csproj", "{AD226BCA-E0B4-4B21-AE2C-5D1CF95B8619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Islands", "Islands\Islands.csproj", "{AD226BCA-E0B4-4B21-AE2C-5D1CF95B8619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{C9023466-5E00-4F45-B9CD-77227417DAB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome", "Palindrome\Palindrome.csproj", "{C9023466-5E00-4F45-B9CD-77227417DAB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContSubarrayThatAddToNumber", "ContSubarrayThatAddToNumber\ContSubarrayThatAddToNumber.csproj", "{4831598C-C587-4246-8F91-A923160067CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContSubarrayThatAddToNumber", "ContSubarrayThatAddToNumber\ContSubarrayThatAddToNumber.csproj", "{4831598C-C587-4246-8F91-A923160067CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibo", "Fibo\Fibo.csproj", "{080AEC3E-41A0-4FB8-90C5-AD637017ABED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibo", "Fibo\Fibo.csproj", "{080AEC3E-41A0-4FB8-90C5-AD637017ABED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryEquivalentOfInteger", "BinaryEquivalentOfInteger\BinaryEquivalentOfInteger.csproj", "{CEC9CD68-5CC0-4F6C-8B93-5C2977BCC0FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryEquivalentOfInteger", "BinaryEquivalentOfInteger\BinaryEquivalentOfInteger.csproj", "{CEC9CD68-5CC0-4F6C-8B93-5C2977BCC0FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringWithRepeatingChars", "StringWithRepeatingChars\StringWithRepeatingChars.csproj", "{125DECA6-9B16-44AB-AF0C-9B0E12577138}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringWithRepeatingChars", "StringWithRepeatingChars\StringWithRepeatingChars.csproj", "{125DECA6-9B16-44AB-AF0C-9B0E12577138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schedule", "Schedule\Schedule.csproj", "{CA92AF51-307F-4B73-9048-4D7F829D4C04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{125DECA6-9B16-44AB-AF0C-9B0E12577138}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{125DECA6-9B16-44AB-AF0C-9B0E12577138}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{125DECA6-9B16-44AB-AF0C-9B0E12577138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA92AF51-307F-4B73-9048-4D7F829D4C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA92AF51-307F-4B73-9048-4D7F829D4C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA92AF51-307F-4B73-9048-4D7F829D4C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA92AF51-307F-4B73-9048-4D7F829D4C04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
